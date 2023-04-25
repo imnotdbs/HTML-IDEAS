@@ -14,10 +14,16 @@ body{
     background-color: #1fec64;
     border-radius: 70px;
     border: 2px solid #000000;
-    font-weight: none;
+    font-weight: bold;
     padding: 6px 10px;
     box-shadow: 2px 2px #000000ee;
+    transition-duration: 0.2s;
 }
+    .lnk_pg1:hover{
+        background-color: transparent;
+        border: transparent;
+        box-shadow: 2px 2px #00000000;
+    }
 .div_td{
     text-align: center;
     margin: 5px;
@@ -26,6 +32,21 @@ body{
     margin-top: 100px;
     width: 400px;
     height: 250px;
+    background-color: #1fec64;
+    border-radius: 70px;
+    border: 2px solid #000000;
+    font-weight: none;
+    padding: 5px;
+    box-shadow: 8px 8px 8px 1px #000000d2;
+}
+.div_td_rg{
+    text-align: center;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 100px;
+    width: 400px;
+    height: 420px;
     background-color: #1fec64;
     border-radius: 70px;
     border: 2px solid #000000;
@@ -58,6 +79,19 @@ body{
     border-bottom: 1px solid #000000;
     outline: 0;
 }
+.cx_date{
+    background-color: transparent;
+    padding: 2px;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #f845b7ce;
+    border: 1px solid #000000;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 0px;
+
+}
 .bot_env{
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
@@ -74,6 +108,26 @@ body{
     transition-duration: 0.2s;
 }
     .bot_env:hover{
+        background-color: #f845b7ce;
+        border: 1px solid rgba(0, 0, 0, 0.801);
+        padding: 6px;
+        box-shadow: 2px 2px #000000ee;
+    }
+.bot_env_2{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    background-color: #ffffff00;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 28px;
+    width: 89px;
+    margin: 24px 5px 10px;
+    transition-duration: 0.2s;
+}
+    .bot_env_2:hover{
         background-color: #f845b7ce;
         border: 1px solid rgba(0, 0, 0, 0.801);
         padding: 6px;
@@ -118,4 +172,21 @@ body{
 .cby{
     font-size: 14px;
     margin-top: 23%
+}
+.cby_rg{
+    font-size: 14px;
+    margin-top: 12.3%
+}
+.txt_sexo{
+    font-weight: bold;
+}
+.sexo{
+    font-weight: bold;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    place-content: center;
+   
 }
