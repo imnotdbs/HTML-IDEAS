@@ -1,7 +1,13 @@
 ._body{
     background-color: #d33599;
 }
-
+/*NavBar Fixa*/
+.navbar_fix{
+    background-color: #d33599;
+}
+.navfix{
+    background-color: #d33599;
+}
 /*Texto Bem Vindo*/
 .area1{
     text-align: center;
@@ -30,7 +36,7 @@
 
 /*Contato*/
 .ctt{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .wpp_logo{
     height: 50px;
@@ -90,63 +96,13 @@
     color:#000000;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 170px;
     border-radius: 900px;
     transition-duration: 0.2s;
     height: 46px;
     width: 126px;
     box-shadow: 4px 4px #000000ee;
 }
-
-/*Sobre Mim*/
-#sb1{
-    font-family: 'SF Pixelate', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 8%;
-    margin-left: 500px;
-    margin-bottom: 20px;
-    height: 800px;
-    width: 500px;
-    background-color: #1fec63;
-    box-shadow: 5px 5px #000000;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*NAVBAR*/
-.all_nav{
-    background-color: transparent;
-}
-.button_logo{
-    height: 50px;
-    width: 50px;
-}
-
     .nav_edit:hover{
         background-color: #1fec63;
         border: 1px solid rgba(0, 0, 0, 0.801);
@@ -162,48 +118,117 @@
     transition-duration: 0.2s;
 }
 
-/*Contato*/
-._contactmedia{
+/*Sobre Mim*/
+#sb1{
+    font-family: 'SF Pixelate', sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+    height: 650px;
+    width: 800px;
     background-color: #1fec63;
-    margin-left: 93.5%;
-    margin-right: 10px;
-    margin-top: 5px;
-    height: 98%;
-    width: 83px;
-    border-radius: 20px;
     box-shadow: 5px 5px #000000;
 }
-.wpp{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    margin-top: 160%;
-}
-.email{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    margin-top: 150px;
-}
-
-/*card*/
 .imgv{
+    height: 550px;
+    width: 300px;
+    margin-left: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 3px 3px #000000;
 }
 .tsb{
-    margin: 20px 10px;
+    text-align: left;
+    font-size: 16px; 
+    padding: 10px;
 }
-
-#sb2{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 16px;
+.titulo{
+    color: #000000;
+    margin-bottom: 50px;
+    text-decoration: underline;
     text-align: center;
-    margin-top: 10%;
-    margin-left: 500px;
-    margin-bottom: 20px;
-    height: 700px;
-    width: 500px;
+}
+.nav_edit_{
+    font-family: 'SF Pixelate', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    background-color: #d33599;
+    color:#000000;
+    margin-left: 370px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-radius: 900px;
+    transition-duration: 0.2s;
+    height: 46px;
+    width: 250px;
+    box-shadow: 4px 4px #000000ee;
+}
+    .nav_edit_:hover{
+        background-color: #1fec63;
+        border: 1px solid rgba(0, 0, 0, 0.801);
+        padding: 1px;
+        box-shadow: 1px 1px #000000ee;
+    }
+
+/*Formações*/
+#sb2{
+    font-family: 'SF Pixelate', sans-serif;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    height: 650px;
+    width: 1300px;
     background-color: #1fec63;
     box-shadow: 5px 5px #000000;
 }
-
+.imgpcof{
+    height: 100px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #000000;
+}
+.titulof{
+    color: #000000;
+    margin-bottom: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+.tf{
+    text-align: left;
+    font-size: 16px; 
+    padding: 10px;
+}
+.imgrdf{
+    height: 100px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #000000;
+}
+.rd{
+    text-align: left;
+    font-size: 16px; 
+    padding: 10px;
+}
+.imghcj{
+    height: 100px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #000000;
+}
+.hcj{
+    text-align: left;
+    font-size: 16px; 
+    padding: 10px;
+}
+.text_hcj{
+    padding: 10px
+}
