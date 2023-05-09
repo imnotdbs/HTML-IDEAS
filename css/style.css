@@ -407,8 +407,37 @@
     max-width: 300px;
     width: 100%;
     height: auto;
+    box-shadow: 4px 4px #000000;
+    border-radius: 400px;
 }
-
+.nav_edit_4{
+    text-align: center;
+    font-family: 'SF Pixelate', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #d33599;
+    border: 1px solid #000000;
+    color:#000000;
+    margin-top: 50px;   
+    border-radius: 900px;
+    transition-duration: 0.2s;
+    height: 46px;
+    width: 126px;
+    box-shadow: 4px 4px #000000ee;
+}
+    .nav_edit_4:hover{
+        background-color: #1fec63;
+        border: 1px solid rgba(0, 0, 0, 0.801);
+        padding: 1px;
+        box-shadow: 1px 1px #000000ee;
+    }
+.teste{
+    font-family: 'Common Pixel', sans-serif;
+    color: #000000;
+}
+.ctt2{
+    margin-top: 100px;
+}
 
 
 
